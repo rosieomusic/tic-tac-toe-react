@@ -4,15 +4,23 @@ import GameOver from "./GameOver";
 import GameState from "./GameState";
 import Reset from "./Reset";
 import gameOverSoundAsset from '../sounds/im-a-brat.wav';
-import clickSoundAsset from '../sounds/girl.wav';
+import clickSoundAsset from '../sounds/boing.mp3';
+
+
 
 const gameOverSound = new Audio(gameOverSoundAsset);
 gameOverSound.volume = 0.2;
 const clickSound = new Audio(clickSoundAsset);
 clickSound.volume = 0.5;
 
+
 const PLAYER_X = 'X';
 const PLAYER_O = 'O';
+
+export const PLAYER_IMAGES = {
+    [PLAYER_X]: '/red.png',
+    [PLAYER_O]: '/white2.png'
+};
 
 const winningCombinations =[
     //Rows
@@ -112,7 +120,7 @@ function TicTacToe(){
 
     return (
         <div>
-        <h1>Tic Tac Toe</h1>
+        <h1>ABRACADABRA TOE</h1>
         <Board 
             playerTurn={playerTurn} 
             tiles={tiles} 

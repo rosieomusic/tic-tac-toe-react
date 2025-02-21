@@ -5,9 +5,9 @@ function GameOver({gameState}) {
         case GameState.inProgress:
             return <></>
         case GameState.playerOWins:
-            return <div className='game-over' >Player O Wins!</div>
+            return <div className='game-over' >Lady Gaga Wins!</div>
         case GameState.playerXWins:
-                return <div className='game-over' >Player X Wins!</div>
+                return <div className='game-over' >Lady In Red Wins!</div>
         case GameState.draw:
                 return <div className='game-over' >Draw</div>
         default:

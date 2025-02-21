@@ -2,7 +2,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #23272f;
+  background-color: black;
   color: white;
 }
 
@@ -19,7 +19,7 @@ h1 {
 }
 
 .tile {
-  color: currentColor;
+  color: white;
   font-size: 2em;
   display: flex;
   justify-content: center;
@@ -27,26 +27,39 @@ h1 {
 }
 
 .right-border {
-  border-right: 0.2em solid #0074a6;
+  border-right: 0.2em solid red;
 }
 
 .bottom-border {
-  border-bottom: 0.2em solid #0074a6;
+  border-bottom: 0.2em solid red;
+}
+.x-hover:hover {
+  background-image: url("../src/img/red.png");
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.4;
+  
 }
 
-.x-hover:hover::after {
-  content: "X";
+.o-hover:hover {
+  background-image: url("../src/img/white2.png");
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
   opacity: 0.4;
 }
 
-.o-hover:hover::after {
-  content: "O";
-  opacity: 0.4;
+.player-icon {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
 }
+
 
 .strike {
   position: absolute;
-  background-color: darkorange;
+  background-color: white;
 }
 
 .strike-row-1 {
@@ -104,7 +117,7 @@ h1 {
 .reset-button {
   margin-top: 50px;
   padding: 20px;
-  background-color: #0074a6;
+  background-color: red;
   color: white;
   width: 100%;
   font-size: 1.5em;
