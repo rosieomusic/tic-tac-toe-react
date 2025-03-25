@@ -7,6 +7,7 @@ import gameOverSoundAsset from '../sounds/win.wav';
 import playerXClickSoundAsset from '../sounds/theToll.wav';
 import playerOClickSoundAsset from '../sounds/angels.wav';
 import resetSoundAsset from '../sounds/danceOrDie.wav';
+import titleImgAsset from '../img/abracadabraTitle.png';
 
 const gameOverSound = new Audio(gameOverSoundAsset);
 gameOverSound.volume = 0.2;
@@ -29,7 +30,7 @@ const winningCombinations = [
 	//Rows
 	{ combo: [0, 1, 2], strikeClass: 'strike-row-1' },
 	{ combo: [3, 4, 5], strikeClass: 'strike-row-2' },
-	{ combo: [6, 7, 8], strikeClass: 'strike-row-1' },
+	{ combo: [6, 7, 8], strikeClass: 'strike-row-3' },
 
 	//Columns
 	{ combo: [0, 3, 6], strikeClass: 'strike-column-1' },
@@ -138,19 +139,27 @@ function TicTacToe() {
 	}, [gameState]);
 
 	return (
-		<div>
-			<h1>ABRACADABRA TOE</h1>
-			<Board
-				playerTurn={playerTurn}
-				tiles={tiles}
-				onTileClick={handleTileClick}
-				strikeClass={strikeClass}
-			/>
-			<GameOver gameState={gameState} />
-			<Reset
-				gameState={gameState}
-				onReset={handleReset}
-			/>
+		<div className='game-container'>
+			<div className='background-container'>
+				<img
+					className='title-image'
+					src={titleImgAsset}
+					alt=''
+				/>
+				<div className='board-container'>
+					<Board
+						playerTurn={playerTurn}
+						tiles={tiles}
+						onTileClick={handleTileClick}
+						strikeClass={strikeClass}
+					/>
+					<GameOver gameState={gameState} />
+					<Reset
+						gameState={gameState}
+						onReset={handleReset}
+					/>
+				</div>
+			</div>
 		</div>
 	);
 }
