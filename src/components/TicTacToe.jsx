@@ -22,8 +22,8 @@ const PLAYER_X = 'X';
 const PLAYER_O = 'O';
 
 export const PLAYER_IMAGES = {
-	[PLAYER_X]: './tic-tac-toe-react/img/red.png',
-	[PLAYER_O]: './tic-tac-toe-react/img/white2.png',
+	[PLAYER_X]: './img/red.png',
+	[PLAYER_O]: './img/white2.png',
 };
 
 const winningCombinations = [
