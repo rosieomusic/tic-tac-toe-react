@@ -1,5 +1,5 @@
 {
-	"homepage": "https:rosieomusic.github.io/tic-tac-toe-react",
+	"homepage": "https://rosieomusic.github.io/tic-tac-toe-react",
 	"name": "tic-tac-toe",
 	"version": "0.1.0",
 	"private": true,
@@ -19,7 +19,7 @@
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
 		"predeploy": "npm run build",
-		"deploy": "gh-pages -d dist"
+		"deploy": "gh-pages -d build"
 	},
 	"eslintConfig": {
 		"extends": [
