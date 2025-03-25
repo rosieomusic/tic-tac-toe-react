@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/tic-tac-toe/static/css/main.5380b26b.css",
-    "main.js": "/tic-tac-toe/static/js/main.5bd9af8f.js",
-    "static/js/453.e036e8b5.chunk.js": "/tic-tac-toe/static/js/453.e036e8b5.chunk.js",
-    "static/media/win.wav": "/tic-tac-toe/static/media/win.3e563e5857d7596919ab.wav",
-    "static/media/danceOrDie.wav": "/tic-tac-toe/static/media/danceOrDie.98e175ef7db424094a13.wav",
-    "static/media/angels.wav": "/tic-tac-toe/static/media/angels.032269c292f07106f5c3.wav",
-    "static/media/theToll.wav": "/tic-tac-toe/static/media/theToll.2617d4c3a9544b351bea.wav",
-    "static/media/abracadabraTitle.png": "/tic-tac-toe/static/media/abracadabraTitle.e6cdba03d88262a8ba87.png",
-    "static/media/white2.png": "/tic-tac-toe/static/media/white2.b15031310ab8db258ed9.png",
-    "static/media/red.png": "/tic-tac-toe/static/media/red.090abdaec1cbbdf19013.png",
-    "index.html": "/tic-tac-toe/index.html",
-    "main.5380b26b.css.map": "/tic-tac-toe/static/css/main.5380b26b.css.map",
-    "main.5bd9af8f.js.map": "/tic-tac-toe/static/js/main.5bd9af8f.js.map",
-    "453.e036e8b5.chunk.js.map": "/tic-tac-toe/static/js/453.e036e8b5.chunk.js.map"
+    "main.css": "/tic-tac-toe-react/static/css/main.8e2e0f8d.css",
+    "main.js": "/tic-tac-toe-react/static/js/main.65ef3174.js",
+    "static/js/453.e036e8b5.chunk.js": "/tic-tac-toe-react/static/js/453.e036e8b5.chunk.js",
+    "static/media/win.wav": "/tic-tac-toe-react/static/media/win.3e563e5857d7596919ab.wav",
+    "static/media/danceOrDie.wav": "/tic-tac-toe-react/static/media/danceOrDie.98e175ef7db424094a13.wav",
+    "static/media/angels.wav": "/tic-tac-toe-react/static/media/angels.032269c292f07106f5c3.wav",
+    "static/media/theToll.wav": "/tic-tac-toe-react/static/media/theToll.2617d4c3a9544b351bea.wav",
+    "static/media/abracadabraTitle.png": "/tic-tac-toe-react/static/media/abracadabraTitle.e6cdba03d88262a8ba87.png",
+    "static/media/white2.png": "/tic-tac-toe-react/static/media/white2.b15031310ab8db258ed9.png",
+    "static/media/red.png": "/tic-tac-toe-react/static/media/red.090abdaec1cbbdf19013.png",
+    "index.html": "/tic-tac-toe-react/index.html",
+    "main.8e2e0f8d.css.map": "/tic-tac-toe-react/static/css/main.8e2e0f8d.css.map",
+    "main.65ef3174.js.map": "/tic-tac-toe-react/static/js/main.65ef3174.js.map",
+    "453.e036e8b5.chunk.js.map": "/tic-tac-toe-react/static/js/453.e036e8b5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5380b26b.css",
-    "static/js/main.5bd9af8f.js"
+    "static/css/main.8e2e0f8d.css",
+    "static/js/main.65ef3174.js"
   ]
 }
