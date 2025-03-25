@@ -6,10 +6,6 @@ body {
 	color: white;
 }
 
-h1 {
-	text-align: center;
-}
-
 .game-container {
 	position: relative;
 	width: 100%;
